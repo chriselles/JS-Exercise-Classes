@@ -234,8 +234,31 @@ class ProjectManager extends Instructor {
       + If the student's grade is above a 70% let them graduate! Otherwise go back to grading their assignments to increase their score.
 */
 
+const chris = new Student({
+  name: "Chris",
+  age: 51,
+  location: "New Zealand",
+  previousExperience: "Amazon.com & Army",
+  favLanguage: "Javascript",
+});
 
+const pace = new Instructor({
+  name: "Pace",
+  age: 32,
+  location: "USA",
+  previousExperience: "Web Development",
+  favLanguage: "Javascript",
+});
 
+while (true) {
+  if (chris.grade <= 70) {
+    console.log('${pace.name} will grade ${chris.name} ${chris.className} test.');
+    console.log(pace.grade(chris, "Web Dev't"));
+  } else {
+    console.log(chris.graduate());
+    break;
+  }
+}
 
 ///////// END OF CHALLENGE /////////
 ///////// END OF CHALLENGE /////////
