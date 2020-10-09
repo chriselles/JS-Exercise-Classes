@@ -13,10 +13,10 @@ This challenge focuses on using the new for ES6 `class` syntax.
 
 ### Task 1 - Set up Project
 
-1. Fork repo and add TL as collaborator on Github.
-1. Clone _your_ fork (not Lambda's repo by mistake!).
-1. `cd` into your newly cloned repository.
-1. Create a new branch by typing `git checkout -b <firstName-lastName>`.
+1. Fork repo and add TL as collaborator on Github. DONE
+1. Clone _your_ fork (not Lambda's repo by mistake!).DONE
+1. `cd` into your newly cloned repository. DONE
+1. Create a new branch by typing `git checkout -b <firstName-lastName>`. DONE
 1. Install dependencies by typing `npm install`.
 1. Run tests by typing `npm run test:watch`.
 1. Work on your branch, push commits and create PR as usual.
@@ -33,7 +33,7 @@ If you run into trouble while coding, fight the good fight for 20 minutes and th
 
 ### Task 2b - Exit Ticket
 
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/hDJXzw5555fnbE6b9/WX9iMfWpsToX7S)
+Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/hDJXzw5555fnbE6b9/WX9iMfWpsToX7S) DONE
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
 
